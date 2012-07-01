@@ -16,4 +16,4 @@
   (if (null (read-only-changer-ignore-p read-only-changer-ignore-patterns))
       (setq buffer-read-only t)))
 
-(provide 'read-only-changer
+(provide 'read-only-changer)
